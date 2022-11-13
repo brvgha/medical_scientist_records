@@ -105,7 +105,7 @@ class biomedRecords():
         return no_of_days
 
 
-employee1 = biomedRecords('Brugha')
+employee1 = biomedRecords('brvgha')
 print(employee1.serviceTime(start_date=dt(2021, 9, 21)))
 employee1.jobTitle('Basic Grade Medical Scientist')
 employee1.jobGrade(4)
