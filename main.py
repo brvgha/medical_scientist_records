@@ -105,7 +105,7 @@ class biomedRecords():
         return no_of_days
 
 
-employee1 = biomedRecords('brvgha')
+'''employee1 = biomedRecords('brvgha')
 print(employee1.serviceTime(start_date=dt(2021, 9, 21)))
 employee1.jobTitle('Basic Grade Medical Scientist')
 employee1.jobGrade(4)
@@ -117,4 +117,7 @@ test = employee1.call_pre(
 
 test1 = employee1.call_post(
     days=['wednesday', 'thursday', 'sunday'], hrs=[8, 8, 8])
+
 salary = employee1.salary()
+print(f'Gross wage: {salary[0]}, Net Wage: {salary[1]}')
+'''
